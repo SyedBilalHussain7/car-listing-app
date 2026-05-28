@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+@media (max-width: 768px) {
+  /* Navbar */
+  nav {
+    padding: 12px 15px ;
+  }
+
+  /* Home Page */
+  .filter-box {
+    flex-direction: column ;
+    align-items: stretch ;
+  }
+
+  /* Cards */
+  .grid {
+    grid-template-columns: 1fr ;
+  }
+}
